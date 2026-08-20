@@ -215,6 +215,34 @@ a { color: inherit; }
   border-radius: 3px;
 }
 
+/* ---- Livestream ---- */
+.livestream { padding: 32px 0; }
+
+.livestream-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: var(--bg-card);
+  border: 1px solid rgba(41, 212, 255, 0.25);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+}
+
+.livestream-text h2 {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+  color: var(--text);
+}
+
+.livestream-text p {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  max-width: 480px;
+}
+
 /* ---- About ---- */
 .about-grid {
   display: grid;
