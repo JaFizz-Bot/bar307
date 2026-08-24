@@ -17,6 +17,7 @@ const PHOTO_SLOTS = [
   { field: "drinks-fridge", filename: "drinks-fridge.jpg", label: "Drankkoelkasten" },
   { field: "bar-counter", filename: "bar-counter.jpg", label: "Bartoog / personeel" },
   { field: "pool-table", filename: "pool-table.jpg", label: "Poolbiljart" },
+  { field: "team", filename: "team.jpg", label: "Team-foto" },
 ];
 
 const upload = multer({
