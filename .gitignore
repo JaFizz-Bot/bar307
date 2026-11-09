@@ -1,3 +1,5 @@
 node_modules/
 *.log
 .DS_Store
+# Handmatige snapshots vóór een wijziging (bv. package-lock.json vóór een npm update); blijven lokaal.
+/.backups/
